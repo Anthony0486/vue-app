@@ -1,26 +1,22 @@
 <template>
-  <div>
+    <navbar/>
     <bonjour/><!-- On utilise ici les composant enfant -->
-    <todoList />
-  </div>
+    <todoList/>
 </template>
 
 <script>
 
 import todoList from './components/todoList.vue'
 import bonjour from './components/bonjour.vue'
+import navbar from './components/navbar.vue'
 
 export default {
   name: 'App',
   components: {
     todoList,
-    bonjour, // déclaration des composant enfant
+    bonjour,
+    navbar, // déclaration des composants enfant
   },
 }
 </script>
-<style>
-h1 {
-  text-align: center;
-  color: #42b983;
-}
-</style>
+

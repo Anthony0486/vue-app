@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1><h1>{{ message }}</h1></h1>
+    <h1 class="title">{{ message }}</h1>
   </div>
 </template>
 
@@ -16,7 +16,8 @@ export default {
 </script>
 
 <style>
-h1 {
+.title {
   color: r#42b983;
+  text-align: center;
 }
 </style>
